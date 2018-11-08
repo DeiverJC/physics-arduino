@@ -16,7 +16,7 @@ class CreateMrusTable extends Migration
         Schema::create('mrus', function (Blueprint $table) {
             $table->increments('id');
             $table->float('t1');
-            $table->float('d1')->default(3);
+            $table->float('d1')->default(0.43);
             $table->timestamps();
         });
     }

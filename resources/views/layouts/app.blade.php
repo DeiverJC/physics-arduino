@@ -12,9 +12,8 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-    <script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
+
+    @stack('scripts')
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
@@ -26,15 +25,12 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-light navbar-laravel p-3">
-            <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
-                </a>
-            </div>
-        </nav>
-        <div class="jumbotron text-center m-0">
-            <h1>Institución Educativa Victoria Manzur</h1>
+        <div class="jumbotron text-center p-3">
+            <h1>
+                <img src="/images/logo-school.png" alt="" class="img-fluid " width="90px">
+                Institución Educativa Victoria Manzur
+                <img src="/images/logo-city.png" alt="" class="img-fluid " width="90px">
+            </h1>
         </div>
 
         <main class="py-4">

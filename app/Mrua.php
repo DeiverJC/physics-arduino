@@ -27,6 +27,6 @@ class Mrua extends Model
 
     public function getAAttribute()
     {
-        return round(($this->vf - $this->vi) / $this->td, 4);
+        return round( ($this->vf - $this->vi) / $this->td, 4);
     }
 }

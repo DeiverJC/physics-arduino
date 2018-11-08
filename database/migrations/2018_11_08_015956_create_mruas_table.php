@@ -17,8 +17,8 @@ class CreateMruasTable extends Migration
             $table->increments('id');
             $table->float('t1');
             $table->float('t2');
-            $table->float('d1')->default(20);
-            $table->float('d2')->default(20);
+            $table->float('d1')->default(0.26);
+            $table->float('d2')->default(0.255);
             $table->timestamps();
         });
     }
