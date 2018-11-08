@@ -6,13 +6,13 @@
             <div class="col-md-6">
                 <div class="card mb-1 border-0 shadow-lg">
                     <h4 class="card-header bg-success text-light">
-                        Velocidad
-                        <small class="float-right text-muted">
+                        <span class="text-uppercase font-weight-bold">Velocidad</span>
+                        <small class="float-right">
                             <strong>Datos tomados: </strong>{!! $mru->created_at->diffForHumans() !!}
                         </small>
                     </h4>
                     <div class="card-body">
-                        <form>
+                        <form class="font-weight-bold">
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Distancia:</label>
                                 <div class="col-sm-9">
@@ -42,15 +42,15 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="card border-0 shadow-lg">
+                <div class="card border-0 shadow">
                     <h4 class="card-header bg-success text-light">
-                        Aceleración
-                        <small class="float-right text-muted">
+                        <span class="text-uppercase font-weight-bold">Aceleración</span>
+                        <small class="float-right">
                             <strong>Datos tomados: </strong>{!! $mrua->created_at->diffForHumans() !!}
                         </small>
                     </h4>
                     <div class="card-body">
-                        <form>
+                        <form class="font-weight-bold">
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Velocidad inicial</label>
                                 <div class="col-sm-9">
@@ -79,6 +79,11 @@
                         </form>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-12 text-center">
+                <a href="{{url('/')}}" class="btn btn-lg btn-block btn-primary font-weight-bold text-uppercase">Recargar</a>
             </div>
         </div>
     </div>

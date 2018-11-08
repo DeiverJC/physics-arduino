@@ -27,9 +27,9 @@
     <div id="app">
         <div class="jumbotron text-center p-3">
             <h1>
-                <img src="/images/logo-school.png" alt="" class="img-fluid " width="90px">
+                <img src="/images/logo-school.png" alt="" class="img-fluid " width="100px">
                 Institución Educativa Victoria Manzur
-                <img src="/images/logo-city.png" alt="" class="img-fluid " width="90px">
+                <img src="/images/logo-city.png" alt="" class="img-fluid" width="90px">
             </h1>
         </div>
 
