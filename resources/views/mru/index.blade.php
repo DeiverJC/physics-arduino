@@ -81,7 +81,7 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-2">
+        <div class="row mt-4">
             <div class="col-md-12 text-center">
                 <a href="{{url('/')}}" class="btn btn-lg btn-block btn-primary font-weight-bold text-uppercase">Recargar</a>
             </div>
